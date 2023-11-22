@@ -1,0 +1,61 @@
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 50%;
+  margin: 0.3em;
+  cursor: pointer;
+  background-color: white;
+  color: #505050;
+  transition: all 0.1s ease-in-out;
+}
+button:active {
+  background-color: #505050;
+  color: white;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.orange {
+  background-color: #ff9500;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+.orange:active {
+  background-color: white;
+  color: #ff9500;
+}
+
+.grey {
+  background-color: #505050;
+  color: white;
+}
+.grey:active {
+  background-color: white;
+  color: #505050;
+}
+
+.resultado {
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin-right: 0.5em;
+  font-size: 3em;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+.btn-lg {
+  width: 44%;
+  border-radius: 2em;
+  flex: 0 0 0;
+}
